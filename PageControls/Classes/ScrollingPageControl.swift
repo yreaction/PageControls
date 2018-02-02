@@ -115,7 +115,7 @@ import UIKit
         let layer = CAShapeLayer()
         layer.fillRule = kCAFillRuleEvenOdd
         layer.frame = CGRect(origin: CGPoint.zero,
-                             size: CGSize(width: self.ringDiameter, height: self.ringDiameter))
+                             size: CGSize(width: self.ringDiamete/2r, height: self.ringDiameter/2))
         layer.actions = [
             "bounds": NSNull(),
             "frame": NSNull(),
